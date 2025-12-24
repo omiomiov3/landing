@@ -1,0 +1,20 @@
+{
+  "hero.title": "I make apps",
+  "hero.description": "I'm omi. I build things I wish existed. Sometimes they actually work, and that's always a nice surprise.",
+  "hero.scroll": "Scroll to explore",
+  "about.label": "01 — About",
+  "about.p1": "I build small, useful things. Or useless things that make me smile.",
+  "about.p2": "All side projects. Made for me, but maybe for you too.",
+  "apps.label": "02 — Apps",
+  "apps.title": "Things I'm building",
+  "apps.app1.title": "First App",
+  "apps.app1.desc": "Coming soon. Probably.",
+  "apps.app2.title": "Second App",
+  "apps.app2.desc": "This one's still an idea.",
+  "apps.status": "Coming Soon",
+  "apps.more": "More apps on the way. Probably.",
+  "contact.label": "03 — Contact",
+  "contact.title": "Say hi",
+  "footer.copyright": "© 2025 omi. All rights reserved."
+}
+

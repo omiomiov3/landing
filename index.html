@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>omi — Making things</title>
+    <meta
+      name="description"
+      content="omi is an engineer crafting thoughtful digital experiences. Explore apps designed with care and precision."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">omi</a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#apps">Apps</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="lang-toggle"
+          id="langToggle"
+          aria-label="Toggle language"
+        >
+          <span class="lang-option active" data-lang="en">EN</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-option" data-lang="ja">JP</span>
+        </button>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="line"
+            ><span data-i18n="hero.title">I make apps</span></span
+          >
+        </h1>
+        <p class="hero-description" data-i18n="hero.description">
+          I'm omi. I build things I wish existed. Sometimes they actually work,
+          and that's always a nice surprise.
+        </p>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        <span class="scroll-text" data-i18n="hero.scroll"
+          >Scroll to explore</span
+        >
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-header">
+        <span class="section-label" data-animate data-i18n="about.label"
+          >01 — About</span
+        >
+      </div>
+      <div class="about-content">
+        <div class="about-text" data-animate>
+          <p data-i18n="about.p1">
+            I build small, useful things. Or useless things that make me smile.
+          </p>
+          <p data-i18n="about.p2">
+            All side projects. Made for me, but maybe for you too.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="apps" id="apps">
+      <div class="section-header">
+        <span class="section-label" data-animate data-i18n="apps.label"
+          >02 — Apps</span
+        >
+        <h2 class="section-title" data-animate data-i18n="apps.title">
+          Things I'm building
+        </h2>
+      </div>
+      <div class="apps-grid">
+        <div class="app-card" data-animate>
+          <div class="app-info">
+            <h3 data-i18n="apps.app1.title">First App</h3>
+            <p data-i18n="apps.app1.desc">Coming soon. Probably.</p>
+          </div>
+          <span class="app-status coming-soon" data-i18n="apps.status"
+            >Coming Soon</span
+          >
+        </div>
+        <div class="app-card" data-animate data-delay="100">
+          <div class="app-info">
+            <h3 data-i18n="apps.app2.title">Second App</h3>
+            <p data-i18n="apps.app2.desc">This one's still an idea.</p>
+          </div>
+          <span class="app-status coming-soon" data-i18n="apps.status"
+            >Coming Soon</span
+          >
+        </div>
+      </div>
+      <div class="coming-soon-message" data-animate>
+        <p data-i18n="apps.more">More apps on the way. Probably.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <span class="section-label" data-animate data-i18n="contact.label"
+        >03 — Contact</span
+      >
+      <h2 class="contact-title" data-animate data-i18n="contact.title">
+        Say hi
+      </h2>
+      <a href="mailto:hello@omiomio.app" class="contact-email" data-animate
+        >hello@omiomio.app</a
+      >
+    </section>
+
+    <footer>
+      <div class="footer-left" data-i18n="footer.copyright">
+        © 2025 omi. All rights reserved.
+      </div>
+      <div class="footer-right">
+        <a href="https://x.com/omiomiov3" target="_blank" rel="noopener">X</a>
+        <a href="https://github.com/omiomiov3" target="_blank" rel="noopener"
+          >GitHub</a
+        >
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
