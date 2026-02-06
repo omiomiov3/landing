@@ -6,7 +6,7 @@
   "about.p1": "小さくて便利なものを作る。または、自分がニヤッとする無駄なもの。",
   "about.p2": "全部趣味です。自分用だけど、あなたにも合うかも。",
   "apps.label": "02 — Apps",
-  "apps.title": "作ってるもの",
+  "apps.title": "作っているもの",
   "apps.app1.title": "1つ目のアプリ",
   "apps.app1.desc": "近日公開。たぶん。",
   "apps.app2.title": "2つ目のアプリ",
@@ -15,6 +15,5 @@
   "apps.more": "まだまだ続く。たぶん。",
   "contact.label": "03 — Contact",
   "contact.title": "Say hi",
-  "footer.copyright": "© 2025 omi"
+  "footer.copyright": "© 2025-2026 omi. All rights reserved."
 }
-
